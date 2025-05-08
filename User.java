@@ -34,10 +34,7 @@ public class User {
         @Override
         public String toString() {
             return "User{" +
-                   //"userId='" + userId + '\'' +
-                   ", name='" + name + '\'' +
-                   //", number_of_tickets='" + number_of_tickets + '\'' +
-                   //", email='" + email + '\'' +
+                   "name='" + name + '\'' +
                    '}';
         }
 }
