@@ -53,7 +53,6 @@ public enum BookingSlot {
     public static BookingSlot getSlotFromStartTime(String timeStart) {
         LocalTime startTime = LocalTime.parse(timeStart);
         LocalTime endTime = startTime.plusHours(1);
-        //String fullRange = startTime + " - " + endTime;
         String fullRange = startTime + "-" + endTime;
 
         return BookingSlot.fromString(fullRange); 
