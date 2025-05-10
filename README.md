@@ -1,6 +1,6 @@
-# Main.java contains main method to interact with the application
+## Main.java contains main method to interact with the application
 
-# TestDriver.java tests working of all the functions.
+## TestDriver.java tests working of all the functions.
 
 # Commands:
 ```
